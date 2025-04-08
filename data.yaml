@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['NSIC_Rc160', 'NSIC_Rc216', 'NSIC_Rc216_w-o_awn', 'NSIC_Rc222', 'NSIC_Rc222_w-o_stain']
+
+roboflow:
+  workspace: varietal-rice-seed
+  project: rice-variety
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/varietal-rice-seed/rice-variety/dataset/8
